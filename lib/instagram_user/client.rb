@@ -7,7 +7,7 @@ module InstagramUser
   class Client
 
     BASE_URL              = 'https://www.instagram.com/graphql/query/?query_hash=%s&variables=%s'.freeze
-    LOGIN_URL             = 'https://www.instagram.com/accounts/login/ajax/'.freeze
+    LOGIN_URL             = 'https://www.instagram.com/accounts/login/'.freeze
     USER_INFO_URL         = 'https://www.instagram.com/%s/?__a=1'.freeze
     MEDIA_JSON_BY_TAG_URL = 'https://www.instagram.com/explore/tags/%s/?__a=1&max_id=%s'.freeze
     DEFAULT_USER_AGENT    = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'.freeze
